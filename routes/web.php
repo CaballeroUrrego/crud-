@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
 use App\Http\Controllers\ProductosController;
 
 Route::resource('productos', ProductosController::class);
